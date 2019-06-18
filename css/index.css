@@ -1,0 +1,37 @@
+table tbody tr td i {
+    cursor: pointer;
+}
+.card-img{
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.card-img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.card-body .card-title{
+    height: 45px;
+} 
+#content-paginacao ul li{
+    float: right;
+}
+#imagem_put_peca{
+    min-width: 100%;
+}
+.computador-content .card p strong{
+    font-size: 30px;
+}
+i{
+    cursor: pointer;
+}
+.nav_top{
+    background: #28a745 !important;
+}
+.nav_top a {
+    color: #fff;
+}
+.nav_top a:hover{
+    color: #fff;
+}
