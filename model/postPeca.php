@@ -6,9 +6,12 @@ $obj = new PecaController();
 
 $params = array(
     'nome' => $_POST['nome'],
+    'id_fornecedor' => $_POST['id_fornecedor'],
     'descricao' => $_POST['descricao'],
+    'custo' => $_POST['custo'],
     'preco' => $_POST['preco'],
     'imagem' => $_FILES['imagem'],
+    'estoque' => $_POST['estoque'],
 );
 
 $obj->post($params);

@@ -1,37 +1,139 @@
 table tbody tr td i {
     cursor: pointer;
 }
-.card-img{
+
+.card-img {
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
-	transition: all 0.3s;
+    transition: all 0.3s;
 }
-.card-img:hover{
+
+.card-img:hover {
     -moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-.card-body .card-title{
+
+.card-body .card-title {
     height: 45px;
-} 
-#content-paginacao ul li{
+}
+
+#content-paginacao ul li {
     float: right;
 }
-#imagem_put_peca{
+
+#imagem_put_peca {
     min-width: 100%;
 }
-.computador-content .card p strong{
+
+.computador-content .card p strong {
     font-size: 30px;
 }
-i{
-    cursor: pointer;
-}
-.nav_top{
-    background: #28a745 !important;
-}
+
 .nav_top a {
     color: #fff;
 }
-.nav_top a:hover{
+
+.nav_top a:hover {
     color: #fff;
+}
+
+.navbar-nav {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-remove-peca-carrinho {
+    /* 
+    font-size: 10px;
+    height: 30px;
+    */
+    width: 23px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.button-finaliza-compra {
+    font-weight: 700;
+}
+
+
+/* .carrinho-fixed{
+    position: fixed;
+    z-index: 9999;
+    width: 100% !important;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+#content-carrinho{
+    background: #fff;
+} */
+
+.image-lista-peca {
+    width: 80%;
+    height: 180px;
+}
+
+.modal-img-peca h5 {
+    text-transform: uppercase;
+}
+
+.image-lista-peca-editar {
+    width: 100px;
+    height: 50px;
+}
+
+.tr-content-peca td {
+    /* align-content: center;
+    align-items: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.card-computador .card .card-body .card-text {
+    height: 100px;
+}
+
+
+/* .btn-carrinho{
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.btn-carrinho button {
+    border-radius: 50px;
+}
+.btn-carrinho span{
+    margin-right: 5px;
+    padding-right: 5px;
+} */
+
+.table-finally-empresa tr td:nth-child(2) {
+    text-align: left;
+}
+
+.table-finally-empresa tbody tr {
+    background: #E6E6FA;
+}
+
+#footer-table-pecas-empresa {
+    background: #E6E6FA;
+}
+
+.card-peca .card-body {
+    margin: 0 auto;
+    text-align: center;
+}
+#content-login{
+    width: 250px;
+    margin:  0 auto;
 }

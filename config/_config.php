@@ -28,5 +28,4 @@ class Config
     {
         return number_format($valor, 2, ',', '.');
     }
-
 }

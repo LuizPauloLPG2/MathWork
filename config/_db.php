@@ -9,9 +9,13 @@ class Db
     {
         try {
             if (self::$connect == null) {
-                self::$connect = new PDO("mysql:host=localhost;dbname=mathwork;", "root", "", array(
-                    PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
-                        )
+                self::$connect = new PDO(
+                    "mysql:host=localhost;dbname=mathwork;",
+                    "root",
+                    "",
+                    array(
+                        PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
+                    )
                 );
             }
 
@@ -20,5 +24,4 @@ class Db
             die($e->getMessage());
         }
     }
-
 }

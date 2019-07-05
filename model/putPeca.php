@@ -6,10 +6,13 @@ $obj = new PecaController();
 
 $params = array(
     'id_peca' => $_POST['id_peca'],
+    'id_fornecedor' => $_POST['id_fornecedor'],
     'nome' => $_POST['nome'],
     'descricao' => $_POST['descricao'],
+    'custo' => $_POST['custo'],
     'preco' => $_POST['preco'],
     'imagem' => $_FILES['imagem'],
+    'estoque' => $_POST['estoque'],
 );
 
 $obj->put($params);
@@ -22,7 +25,6 @@ if ($obj->lastError()) {
 } else {
     $retornoJson["msg"] = 0;
     $retornoJson["erro"] = 0;
-    $retornoJson["last_id"] = $obj->lastInsertId();
 }
 
 echo json_encode($retornoJson);
