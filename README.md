@@ -1,3 +1,3 @@
 # MathWork
 
-**Custo e finaças**
+**Custo e finanças**
